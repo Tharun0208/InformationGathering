@@ -5,6 +5,13 @@ Information Gathering Techiques
 
 # AIM:
 
+To perform information gathering techniques using kali linux # InformationGathering
+Information Gathering Techiques
+
+# To perform information gathering techniques
+
+# AIM:
+
 To perform information gathering techniques using kali linux 
 
 ## STEPS:
@@ -55,7 +62,33 @@ get further detail by using ip2location.com website.
 
 ![WhatsApp Image 2025-03-08 at 14 16 11_6c12059a](https://github.com/user-attachments/assets/fb7369f2-97b9-45fd-88d3-4c74d78ee775)
 
+## Webserver Fingerprinting:
+## Netcat:
+```
+nc rockstargames.com 80
+```
+## Output:
 
+![Screenshot_2025-03-08_04_16_19](https://github.com/user-attachments/assets/712fab1c-e2fd-4e61-b81d-b11985425d58)
+
+## nmap:
+```
+nmap rockstargames.com
+```
+## Output:
+
+![Screenshot_2025-03-08_04_18_56](https://github.com/user-attachments/assets/7dc69480-a232-4828-b058-00a85fed3374)
+
+## Tracing the Location
+## TCP Traceroute:
+```
+sudo traceroute -T rockstargames.com
+```
+## Output:
+
+![Screenshot_2025-03-09_23_57_21](https://github.com/user-attachments/assets/a27da9cd-279e-46c8-ad44-171a990e1daa)
 
 ## RESULT:
 The information gathering techniques tools/procedure were  identified successfully
+
+
